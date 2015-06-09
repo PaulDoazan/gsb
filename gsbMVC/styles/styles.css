@@ -294,6 +294,7 @@ table.listeLegere th.libelle{
   float : left;
 
 }
+<<<<<<< HEAD
 
 input.valeurChangee {
 	width: 99px;
@@ -307,3 +308,5 @@ input.valeurChangee {
 	position: absolute;
 	top: -999em;
 }
+=======
+>>>>>>> faabb130581447cb7ea69737b9189e08f30035e1

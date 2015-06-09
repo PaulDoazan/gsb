@@ -7,6 +7,7 @@
  * @version    1.0
  */
  /**
+<<<<<<< HEAD
  * Teste si un quelconque utilisateur est connecté
  * @return vrai ou faux 
  */
@@ -15,16 +16,33 @@ function estConnecte(){
 }
 /**
  * Enregistre dans une variable session les infos d'un utilisateur
+=======
+ * Teste si un quelconque visiteur est connecté
+ * @return vrai ou faux 
+ */
+function estConnecte(){
+  return isset($_SESSION['idVisiteur']);
+}
+/**
+ * Enregistre dans une variable session les infos d'un visiteur
+>>>>>>> faabb130581447cb7ea69737b9189e08f30035e1
  
  * @param $id 
  * @param $nom
  * @param $prenom
  */
+<<<<<<< HEAD
 function connecter($id,$nom,$prenom,$type){
 	$_SESSION['idUtilisateur']= $id; 
 	$_SESSION['nom']= $nom;
 	$_SESSION['prenom']= $prenom;
 	$_SESSION['type']= $type;
+=======
+function connecter($id,$nom,$prenom){
+	$_SESSION['idVisiteur']= $id; 
+	$_SESSION['nom']= $nom;
+	$_SESSION['prenom']= $prenom;
+>>>>>>> faabb130581447cb7ea69737b9189e08f30035e1
 }
 /**
  * Détruit la session active
@@ -188,7 +206,11 @@ function ajouterErreur($msg){
    $_REQUEST['erreurs'][]=$msg;
 }
 /**
+<<<<<<< HEAD
  * Retourne le nombre de lignes du tableau des erreurs 
+=======
+ * Retoune le nombre de lignes du tableau des erreurs 
+>>>>>>> faabb130581447cb7ea69737b9189e08f30035e1
  
  * @return le nombre d'erreurs
  */

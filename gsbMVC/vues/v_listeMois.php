@@ -1,5 +1,9 @@
 ﻿ <div id="contenu">
+<<<<<<< HEAD
       <h2>Les fiches de frais</h2>
+=======
+      <h2>Mes fiches de frais</h2>
+>>>>>>> faabb130581447cb7ea69737b9189e08f30035e1
       <h3>Mois à sélectionner : </h3>
       <form action="index.php?uc=etatFrais&action=voirEtatFrais" method="post">
       <div class="corpsForm">
